@@ -1,0 +1,32 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    padding: 70px;
+    background-color: rgb(253, 245, 232);
+}
+
+#title {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    border: 5px grey solid;
+    padding: 20px;
+    border-radius: 1rem;
+    display: inline;
+}
+
+#root {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+@media screen and (max-width: 485px) {
+	#title {
+		display: block;
+	}
+}
