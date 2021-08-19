@@ -26,7 +26,11 @@ body {
 }
 
 @media screen and (max-width: 485px) {
-	#title {
-		display: block;
-	}
+    #title {
+        display: block;
+    }
+    #root {
+        top: 20%;
+        transform: translateY(-20%);
+    }
 }
